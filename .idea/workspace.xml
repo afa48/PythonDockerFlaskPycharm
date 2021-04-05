@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Space after header">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added files to app directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +68,7 @@
       <updated>1617130304978</updated>
       <workItem from="1617130344253" duration="5302000" />
       <workItem from="1617299697101" duration="2153000" />
+      <workItem from="1617585817681" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -106,11 +105,29 @@
       <option name="project" value="LOCAL" />
       <updated>1617301255236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Task: Added files to app directory">
+      <created>1617586084686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617586084686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task: Created Files/Folders" />
@@ -118,6 +135,7 @@
     <MESSAGE value="Task: Added docker configuration settings" />
     <MESSAGE value="Task: Added information to Readme" />
     <MESSAGE value="Fix: Space after header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Space after header" />
+    <MESSAGE value="Task: Added files to app directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: Added files to app directory" />
   </component>
 </project>
