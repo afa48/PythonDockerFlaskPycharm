@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added code to app.py file">
-      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added code to Dockerfile">
+      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <updated>1617130304978</updated>
       <workItem from="1617130344253" duration="5302000" />
       <workItem from="1617299697101" duration="2153000" />
-      <workItem from="1617585817681" duration="1200000" />
+      <workItem from="1617585817681" duration="1585000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617586372200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Task: Added code to Dockerfile">
+      <created>1617587539050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617587539050</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,7 @@
     <MESSAGE value="Fix: Space after header" />
     <MESSAGE value="Task: Added files to app directory" />
     <MESSAGE value="Task: Added code to app.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Added code to app.py file" />
+    <MESSAGE value="Task: Added code to Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: Added code to Dockerfile" />
   </component>
 </project>
