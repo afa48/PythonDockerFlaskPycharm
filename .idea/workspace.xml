@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added code to init.sql file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Updated Readme file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +102,7 @@
       <updated>1617130304978</updated>
       <workItem from="1617130344253" duration="5302000" />
       <workItem from="1617299697101" duration="2153000" />
-      <workItem from="1617585817681" duration="6171000" />
+      <workItem from="1617585817681" duration="6965000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617589166015</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix: Updated Readme file">
+      <created>1617631561612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617631561612</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +224,7 @@
     <MESSAGE value="Task: Added code to requirements.txt" />
     <MESSAGE value="Task: Created init.sql file in db directory" />
     <MESSAGE value="Task: Added code to init.sql file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Added code to init.sql file" />
+    <MESSAGE value="Fix: Updated Readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Updated Readme file" />
   </component>
 </project>
