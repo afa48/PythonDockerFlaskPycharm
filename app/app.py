@@ -19,7 +19,7 @@ def cities_import() -> List[Dict]:
     cursor = connection.cursor(dictionary=True)
 
     cursor.execute('SELECT * FROM tblCitiesImport')
-    result: object = cursor.fetchall()
+    result = cursor.fetchall()
 
     cursor.close()
     connection.close()
