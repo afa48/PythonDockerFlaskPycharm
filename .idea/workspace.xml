@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit code in requirements.txt">
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit code in index.html to show links for City Name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618759051446</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Fix: Edit code in index.html to show links for City Name">
+      <created>1618766561031</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618766561031</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +392,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added information to Readme" />
     <MESSAGE value="Fix: Space after header" />
     <MESSAGE value="Task: Added files to app directory" />
     <MESSAGE value="Task: Added code to app.py file" />
@@ -410,6 +416,7 @@
     <MESSAGE value="Task: Added view.html and code" />
     <MESSAGE value="Fix: Edit code in docker-compose.yml" />
     <MESSAGE value="Fix: Edit code in requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit code in requirements.txt" />
+    <MESSAGE value="Fix: Edit code in index.html to show links for City Name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit code in index.html to show links for City Name" />
   </component>
 </project>
