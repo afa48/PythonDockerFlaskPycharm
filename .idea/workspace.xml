@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added view.html and code">
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit code in docker-compose.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDockerFlaskPycharm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IS601_Docker_Linux_Containerization" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -349,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618748967007</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Fix: Edit code in docker-compose.yml">
+      <created>1618749773295</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1618749773295</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +378,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added files to gitignore" />
     <MESSAGE value="Task: Added docker configuration settings" />
     <MESSAGE value="Task: Added information to Readme" />
     <MESSAGE value="Fix: Space after header" />
@@ -393,6 +402,7 @@
     <MESSAGE value="Task: Added Edit.html file and code" />
     <MESSAGE value="Task: Added new.html file and added code" />
     <MESSAGE value="Task: Added view.html and code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Added view.html and code" />
+    <MESSAGE value="Fix: Edit code in docker-compose.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit code in docker-compose.yml" />
   </component>
 </project>
