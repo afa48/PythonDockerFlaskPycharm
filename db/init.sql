@@ -2,6 +2,7 @@ CREATE DATABASE citiesData;
 use citiesData;
 
 CREATE TABLE IF NOT EXISTS tblCitiesImport (
+    `id` int AUTO_INCREMENT,
     `fldName` VARCHAR(21) CHARACTER SET utf8,
     `fldLat` NUMERIC(6, 4),
     `fldLong` NUMERIC(7, 4),
@@ -9,9 +10,10 @@ CREATE TABLE IF NOT EXISTS tblCitiesImport (
     `fldAbbreviation` VARCHAR(3) CHARACTER SET utf8,
     `fldCapitalStatus` VARCHAR(7) CHARACTER SET utf8,
     `fldPopulation` INT
+    PRIMARY KEY (`id`)
 );
 INSERT INTO tblCitiesImport VALUES
-    ('Tokyo 1',35.685,139.7514,'Japan','JPN','primary',35676000),
+    ('Tokyo',35.685,139.7514,'Japan','JPN','primary',35676000),
     ('New York',40.6943,-73.9249,'United States','USA','NA',19354922),
     ('Mexico City',19.4424,-99.131,'Mexico','MEX','primary',19028000),
     ('Los Angeles',34.1139,-118.4068,'United States','USA','NA',12815475),
