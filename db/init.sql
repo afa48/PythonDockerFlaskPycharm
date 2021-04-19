@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS tblCitiesImport (
     `fldCountry` VARCHAR(19) CHARACTER SET utf8,
     `fldAbbreviation` VARCHAR(3) CHARACTER SET utf8,
     `fldCapitalStatus` VARCHAR(7) CHARACTER SET utf8,
-    `fldPopulation` INT
+    `fldPopulation` INT,
     PRIMARY KEY (`id`)
 );
 INSERT INTO tblCitiesImport (fldName,fldLat,fldLong,fldCountry,fldAbbreviation,fldCapitalStatus,fldPopulation) VALUES
