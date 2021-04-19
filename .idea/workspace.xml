@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="FIx: Edit info in view.html">
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="FIx: Added URL for /cities/new in layout.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618862828392</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="FIx: Added URL for /cities/new in layout.html">
+      <created>1618864498079</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1618864498079</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added code to init.sql file" />
     <MESSAGE value="Fix: Updated Readme file" />
     <MESSAGE value="Task: Added query.png screen shot" />
     <MESSAGE value="Task: Step 13 - Added postman.png pic- DONE" />
@@ -485,6 +491,7 @@
     <MESSAGE value="Fix: Edit Code in init.sql database to 'tableCitiesImport'" />
     <MESSAGE value="Fix: Edit Delete button in view.html" />
     <MESSAGE value="FIx: Edit info in view.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIx: Edit info in view.html" />
+    <MESSAGE value="FIx: Added URL for /cities/new in layout.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIx: Added URL for /cities/new in layout.html" />
   </component>
 </project>
