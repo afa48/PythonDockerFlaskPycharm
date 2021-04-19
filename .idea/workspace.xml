@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: edited Abbreviation Table">
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit Code in init.sql database to 'tableCitiesImport'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/init.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618796908960</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix: Edit Code in init.sql database to 'tableCitiesImport'">
+      <created>1618847991608</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618847991608</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added code to Dockerfile" />
     <MESSAGE value="Task: Added code to requirements.txt" />
     <MESSAGE value="Task: Created init.sql file in db directory" />
     <MESSAGE value="Task: Added code to init.sql file" />
@@ -457,6 +462,7 @@
     <MESSAGE value="Fix: Edit code in layout.html" />
     <MESSAGE value="Fix: Previous Commit-edit code in database; current commit- edit code in Dockerfile" />
     <MESSAGE value="Fix: Edit Code in init.sql database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit Code in init.sql database" />
+    <MESSAGE value="Fix: Edit Code in init.sql database to 'tableCitiesImport'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit Code in init.sql database to 'tableCitiesImport'" />
   </component>
 </project>
