@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="FIx: Added URL for /cities/new in layout.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/init.sql" afterDir="false" />
-    </list>
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit tabs for tbleCitiesImport" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -448,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618864498079</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Fix: Edit tabs for tbleCitiesImport">
+      <created>1618945309578</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1618945309578</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix: Updated Readme file" />
     <MESSAGE value="Task: Added query.png screen shot" />
     <MESSAGE value="Task: Step 13 - Added postman.png pic- DONE" />
     <MESSAGE value="Task: Created Template directory and index and layout files" />
@@ -492,6 +495,7 @@
     <MESSAGE value="Fix: Edit Delete button in view.html" />
     <MESSAGE value="FIx: Edit info in view.html" />
     <MESSAGE value="FIx: Added URL for /cities/new in layout.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIx: Added URL for /cities/new in layout.html" />
+    <MESSAGE value="Fix: Edit tabs for tbleCitiesImport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit tabs for tbleCitiesImport" />
   </component>
 </project>
