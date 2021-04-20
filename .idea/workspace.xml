@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit index.html page">
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit layout.html page">
+      <change afterPath="$PROJECT_DIR$/app/templates/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <workItem from="1618148637707" duration="3617000" />
       <workItem from="1618160591649" duration="17537000" />
       <workItem from="1618498215552" duration="2832000" />
-      <workItem from="1618945951932" duration="2442000" />
+      <workItem from="1618945951932" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618948902433</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Fix: Edit layout.html page">
+      <created>1618949107531</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1618949107531</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +403,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added information to Readme" />
     <MESSAGE value="Fix: Space after header" />
     <MESSAGE value="Task: Added files to app directory" />
     <MESSAGE value="Task: Added code to app.py file" />
@@ -421,6 +427,7 @@
     <MESSAGE value="Fix: Edit crash_catalonia.sql file" />
     <MESSAGE value="Task: Created &amp; Inserted Code for Edit.html Page" />
     <MESSAGE value="Fix: Edit index.html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit index.html page" />
+    <MESSAGE value="Fix: Edit layout.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit layout.html page" />
   </component>
 </project>
