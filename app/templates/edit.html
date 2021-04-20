@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="/edit/{{crashes.id}}" method="post">
+    <div class="row">
+        <div class="col">
+            <label for="Days_of_Week">City Name</label>
+            <input id="Days_of_Week" type="text" class="form-control" placeholder="Days of Week Name" name="Days_of_Week" value="{{crashes.Days_of_week}}">
+        </div>
+        <div class="col">
+            <label for="Number_of_Crashes">City Abbreviation</label>
+            <input id="Number_of_Crashes" type="text" class="form-control" placeholder="Number of Crashes"
+                   name="Number_of_Crashes" value="{{crashes.fldAbbreviation}}">
+        </div>
+        <div class="col">
+            <label for="fldCountry">City Country</label>
+            <input id="fldCountry" type="text" class="form-control" placeholder="City Country" name="fldCountry" value="{{city.fldCountry}}">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+
+</form>
+{% endblock %}
