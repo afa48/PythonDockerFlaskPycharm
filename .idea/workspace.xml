@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit crash_catalonia.sql file">
-      <change afterPath="$PROJECT_DIR$/app/templates/edit.html" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit index.html page">
+      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <workItem from="1618148637707" duration="3617000" />
       <workItem from="1618160591649" duration="17537000" />
       <workItem from="1618498215552" duration="2832000" />
-      <workItem from="1618945951932" duration="2075000" />
+      <workItem from="1618945951932" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -356,7 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618948205648</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Task: Created &amp; Inserted Code for Edit.html Page">
+      <created>1618948759828</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618948759828</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fix: Edit index.html page">
+      <created>1618948886916</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1618948886916</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Fix: Edit index.html page">
+      <created>1618948902433</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1618948902433</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,8 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added files to gitignore" />
-    <MESSAGE value="Task: Added docker configuration settings" />
     <MESSAGE value="Task: Added information to Readme" />
     <MESSAGE value="Fix: Space after header" />
     <MESSAGE value="Task: Added files to app directory" />
@@ -400,6 +419,8 @@
     <MESSAGE value="Fix: Edit Dockerfile" />
     <MESSAGE value="Fix: Edit requirements.txt file" />
     <MESSAGE value="Fix: Edit crash_catalonia.sql file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit crash_catalonia.sql file" />
+    <MESSAGE value="Task: Created &amp; Inserted Code for Edit.html Page" />
+    <MESSAGE value="Fix: Edit index.html page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit index.html page" />
   </component>
 </project>
