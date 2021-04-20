@@ -1,8 +1,11 @@
-CREATE TABLE IF NOT EXISTS crash_catalonia (
+CREATE DATABASE crashesData;
+use crashesData;
+
+CREATE TABLE IF NOT EXISTS `crash_catalonia` (
     `Day_of_Week` VARCHAR(9) CHARACTER SET utf8,
     `Number_of_Crashes` INT
 );
-INSERT INTO crash_catalonia VALUES
+INSERT INTO `crash_catalonia` (Days_of_Week, Number_of_Crashes) VALUES
     ('Sunday',13664),
     ('Monday',17279),
     ('Tuesday',17337),
