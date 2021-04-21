@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Created view.html page and added code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edit requirements.txt code">
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <workItem from="1618160591649" duration="17537000" />
       <workItem from="1618498215552" duration="2832000" />
       <workItem from="1618945951932" duration="3625000" />
-      <workItem from="1618966796025" duration="645000" />
+      <workItem from="1618966796025" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618950067958</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fix: Edit requirements.txt code">
+      <created>1618967491972</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1618967491972</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +425,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added code to app.py file" />
     <MESSAGE value="Task: Added code to Dockerfile" />
     <MESSAGE value="Task: Added code to requirements.txt" />
     <MESSAGE value="Task: Created init.sql file in db directory" />
@@ -443,6 +449,7 @@
     <MESSAGE value="Fix: Edit layout.html page" />
     <MESSAGE value="Task: Created new.html page and added code" />
     <MESSAGE value="Task: Created view.html page and added code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task: Created view.html page and added code" />
+    <MESSAGE value="Fix: Edit requirements.txt code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edit requirements.txt code" />
   </component>
 </project>
