@@ -2,17 +2,17 @@
 {% block content %}
 
 <div class="card" class="m-5 p-2">
-    <h5 class="card-title">{{ crashes.Days_of_Week }} - {{ crashes.Number_of_Crashes }}</h5>
+    <h5 class="card-title">{{ crashes.Day_of_Week }} - {{ crashes.Number_of_Crashes }}</h5>
 
     <ul class="list-group list-group-flush">
-        <li class="list-group-item">Days of the Week: {{ crashes.Days_of_Week }}</li>
+        <li class="list-group-item">Days of the Week: {{ crashes.Day_of_Week }}</li>
         <li class="list-group-item">Number of Crashes: {{ crashes.Number_of_Crashes }}</li>
     </ul>
     <div class="card-body">
-        <a href="/edit/{{crashes.id}}" class="card-link btn btn-primary">edit</a>
+        <a href="/edit/{{crash.id}}" class="card-link btn btn-primary">edit</a>
     </div>
 </div>
-<form action="/delete/{{crashes.id}}" method="post"><button type="submit" class="btn btn-danger">Delete</button></form>
+<form action="/delete/{{crash.id}}" method="post"><button type="submit" class="btn btn-danger">Delete</button></form>
 
 
 {% endblock %}

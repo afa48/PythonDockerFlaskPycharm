@@ -22,7 +22,7 @@ def index():
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM crash_catalonia')
     result = cursor.fetchall()
-    return render_template('index.html', title='Home', user=user, cities=result)
+    return render_template('index.html', title='Home', user=user, crash=result)
 
 
 @app.route('/view/<int:crash_id>', methods=['GET'])
@@ -44,8 +44,8 @@ def form_edit_get(crash_id):
 @app.route('/edit/<int:crash_id>', methods=['POST'])
 def form_update_post(crash_id):
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Days_of_Week'), request.form.get('Number_of_Crashes'), crashes_id)
-    sql_update_query = """UPDATE crash_catalonia t SET t.Days_of_Week = %s, Number_of_Crashes = %s, WHERE t.id = %s """
+    inputData = (request.form.get('Days_of_Week'), request.form.get('Number_of_Crashes'), crash_id)
+    sql_update_query = """UPDATE crash_catalonia t SET t.Day_of_Week = %s, Number_of_Crashes = %s, WHERE t.id = %s """
     cursor.execute(sql_update_query, inputData)
     mysql.get_db().commit()
     return redirect("/", code=302)
@@ -58,8 +58,8 @@ def form_insert_get():
 @app.route('/crashes/new', methods=['POST'])
 def form_insert_post():
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Days_of_week'), request.form.get('Number_of_Crashes'))
-    sql_insert_query = """INSERT INTO crash_catalonia (Days_of_Week,Number_of_Crashes) VALUES (%s, %s,%s, %s,%s, %s,%s) """
+    inputData = (request.form.get('Day_of_week'), request.form.get('Number_of_Crashes'))
+    sql_insert_query = """INSERT INTO crash_catalonia (Day_of_Week,Number_of_Crashes) VALUES (%s, %s) """
     cursor.execute(sql_insert_query, inputData)
     mysql.get_db().commit()
     return redirect("/", code=302)
@@ -68,7 +68,7 @@ def form_insert_post():
 def form_delete_post(crash_id):
     cursor = mysql.get_db().cursor()
     sql_delete_query = """DELETE FROM crash_catalonia WHERE id = %s """
-    cursor.execute(sql_delete_query, crashes_id)
+    cursor.execute(sql_delete_query, crash_id)
     mysql.get_db().commit()
     return redirect("/", code=302)
 
