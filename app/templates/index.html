@@ -8,10 +8,11 @@
     </tr>
     </thead>
     <tbody>
-    {% for crashes in Day of Week %}
+    {% for crash in crashes %}
     <tr>
-        <td>{{ crashes.Day_of_Week }}</td>
-        <td>{{ crashes.Number_of_Crashes }}</td>
+        <td><a href="view/{{crash.id}}">{{crash.Day_of_Week}}</a></td>
+        <td>{{ crash.Day_of_Week }}</td>
+        <td>{{ crash.Number_of_Crashes }}</td>
     </tr>
     {% endfor %}
     </tbody>

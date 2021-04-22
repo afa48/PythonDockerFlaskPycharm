@@ -30,6 +30,7 @@ def record_view(crash_id):
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM crash_catalonia WHERE id=%s', crash_id)
     result = cursor.fetchall()
+    # print("My Result ", result)
     return render_template('view.html', title='View Form', crash=result[0])
 
 
