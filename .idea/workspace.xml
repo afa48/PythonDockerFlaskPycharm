@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edited code">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/view.html" beforeDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: edited code in app.py file">
+      <change afterPath="$PROJECT_DIR$/app/templates/edit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -142,7 +137,7 @@
       <workItem from="1619185693550" duration="1059000" />
       <workItem from="1619194741260" duration="2974000" />
       <workItem from="1619200328789" duration="1417000" />
-      <workItem from="1619297266331" duration="3218000" />
+      <workItem from="1619297266331" duration="3560000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -438,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619112446689</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Fix: renamed db">
+      <created>1619447575403</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447575403</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Fix: edited code in app.py file">
+      <created>1619447724608</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447724608</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,8 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Created init.sql file in db directory" />
-    <MESSAGE value="Task: Added code to init.sql file" />
     <MESSAGE value="Fix: Updated Readme file" />
     <MESSAGE value="Task: Added query.png screen shot" />
     <MESSAGE value="Task: Step 13 - Added postman.png pic- DONE" />
@@ -482,6 +489,8 @@
     <MESSAGE value="Fix: Edit requirements.txt code" />
     <MESSAGE value="Fix: Edit app.py code" />
     <MESSAGE value="Fix: Edited code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edited code" />
+    <MESSAGE value="Fix: renamed db" />
+    <MESSAGE value="Fix: edited code in app.py file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: edited code in app.py file" />
   </component>
 </project>
