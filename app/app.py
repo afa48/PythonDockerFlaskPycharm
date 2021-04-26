@@ -28,9 +28,8 @@ def index():
 @app.route('/view/<int:crash_id>', methods=['GET'])
 def record_view(crash_id):
     cursor = mysql.get_db().cursor()
-    cursor.execute('SELECT * FROM crash_catalonia WHERE id=%s', crash_id)
+    cursor.execute('SELECT * FROM crash_catalonia WHERE id=%s', Day_of_Week_id)
     result = cursor.fetchall()
-    # print("My Result ", result)
     return render_template('view.html', title='View Form', crash=result[0])
 
 
@@ -45,7 +44,7 @@ def form_edit_get(crash_id):
 @app.route('/edit/<int:crash_id>', methods=['POST'])
 def form_update_post(crash_id):
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Days_of_Week'), request.form.get('Number_of_Crashes'), crash_id)
+    inputData = (request.form.get('Day_of_Week'), request.form.get('Number_of_Crashes'), crash_id)
     sql_update_query = """UPDATE crash_catalonia t SET t.Day_of_Week = %s, Number_of_Crashes = %s, WHERE t.id = %s """
     cursor.execute(sql_update_query, inputData)
     mysql.get_db().commit()
@@ -53,7 +52,7 @@ def form_update_post(crash_id):
 
 @app.route('/crashes/new', methods=['GET'])
 def form_insert_get():
-    return render_template('new.html', title='New Crashes Form')
+    return render_template('new.html', title='New Crash Form')
 
 
 @app.route('/crashes/new', methods=['POST'])
