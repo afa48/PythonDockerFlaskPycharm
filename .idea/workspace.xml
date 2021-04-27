@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: edited code in app.py file">
-      <change afterPath="$PROJECT_DIR$/app/templates/edit.html" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Task: Added view.html file and added code">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -47,6 +52,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Docker.NewProject">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDockerFlaskPycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonDockerFlaskPycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,7 +139,13 @@
       <item itemvalue="Docker.WebApplication" />
       <item itemvalue="Docker.NewProject" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.app" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -137,7 +170,7 @@
       <workItem from="1619185693550" duration="1059000" />
       <workItem from="1619194741260" duration="2974000" />
       <workItem from="1619200328789" duration="1417000" />
-      <workItem from="1619297266331" duration="3560000" />
+      <workItem from="1619297266331" duration="15133000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Created Files/Folders">
       <created>1617300319698</created>
@@ -447,7 +480,42 @@
       <option name="project" value="LOCAL" />
       <updated>1619447724608</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Task: Added edit.html file and added code">
+      <created>1619447812943</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447812943</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Task: Added index.html file and added code">
+      <created>1619447861621</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447861621</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Task: Added layout.html file and added code">
+      <created>1619447905442</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447905442</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Task: Added new.html file and added code">
+      <created>1619447951485</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1619447951485</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Task: Added view.html file and added code">
+      <created>1619448018945</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1619448018945</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,11 +534,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix: Updated Readme file" />
-    <MESSAGE value="Task: Added query.png screen shot" />
-    <MESSAGE value="Task: Step 13 - Added postman.png pic- DONE" />
-    <MESSAGE value="Task: Created Template directory and index and layout files" />
-    <MESSAGE value="Fix: Adjusted Code for app.py file" />
     <MESSAGE value="Task: Added code to index file" />
     <MESSAGE value="Task: Added code to layout.html file" />
     <MESSAGE value="Task: Added new branch Part 2; Updated Codes" />
@@ -491,6 +554,11 @@
     <MESSAGE value="Fix: Edited code" />
     <MESSAGE value="Fix: renamed db" />
     <MESSAGE value="Fix: edited code in app.py file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: edited code in app.py file" />
+    <MESSAGE value="Task: Added edit.html file and added code" />
+    <MESSAGE value="Task: Added index.html file and added code" />
+    <MESSAGE value="Task: Added layout.html file and added code" />
+    <MESSAGE value="Task: Added new.html file and added code" />
+    <MESSAGE value="Task: Added view.html file and added code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task: Added view.html file and added code" />
   </component>
 </project>

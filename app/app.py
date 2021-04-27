@@ -28,7 +28,7 @@ def index():
 @app.route('/view/<int:crash_id>', methods=['GET'])
 def record_view(crash_id):
     cursor = mysql.get_db().cursor()
-    cursor.execute('SELECT * FROM crash_catalonia WHERE id=%s', Day_of_Week_id)
+    cursor.execute('SELECT * FROM crash_catalonia WHERE id=%s', crash_id)
     result = cursor.fetchall()
     return render_template('view.html', title='View Form', crash=result[0])
 
