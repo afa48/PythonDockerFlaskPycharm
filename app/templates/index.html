@@ -2,18 +2,18 @@
 {% block content %}
 <table class="table">
     <thead>
-    <tr>
-        <th scope="col">Day of Week</th>
-        <th scope="col">Number of Crashes</th>
-    </tr>
+        <tr>
+            <th scope="col">Day of Week</th>
+            <th scope="col">Number of Crashes</th>
+        </tr>
     </thead>
+
     <tbody>
     {% for crash in crashes %}
-    <tr>
-        <td><a href="view/{{crash.id}}">{{crash.Day_of_Week}}</a></td>
-        <td>{{ crash.Day_of_Week }}</td>
-        <td>{{ crash.Number_of_Crashes }}</td>
-    </tr>
+        <tr>
+            <td><a href="view/{{crash.id}}">{{crash.Day_of_Week}}</a></td>
+            <td>{{ crash.Number_of_Crashes }}</td>
+        </tr>
     {% endfor %}
     </tbody>
 </table>

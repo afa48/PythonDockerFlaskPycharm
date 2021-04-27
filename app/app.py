@@ -58,7 +58,7 @@ def form_insert_get():
 @app.route('/crashes/new', methods=['POST'])
 def form_insert_post():
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Day_of_week'), request.form.get('Number_of_Crashes'))
+    inputData = (request.form.get('Day_of_Week'), request.form.get('Number_of_Crashes'))
     sql_insert_query = """INSERT INTO crash_catalonia (Day_of_Week,Number_of_Crashes) VALUES (%s, %s) """
     cursor.execute(sql_insert_query, inputData)
     mysql.get_db().commit()
