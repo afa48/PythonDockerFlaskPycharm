@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Edited code in app.py line 25 from crash = result to crashes = result">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+    <list default="true" id="63ff49d5-4182-4134-9d55-b9b0cb5e087a" name="Default Changelist" comment="Fix: Removed crash.Day_of_Week in index.html due to extra Day of Week column showing; Changed lowercase w to uppercase W in Day_of_Week in app.py so that new Data could be visible">
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +165,7 @@
       <workItem from="1619185693550" duration="1059000" />
       <workItem from="1619194741260" duration="2974000" />
       <workItem from="1619200328789" duration="1417000" />
-      <workItem from="1619297266331" duration="25546000" />
-    </task>
-    <task id="LOCAL-00003" summary="Task: Added docker configuration settings">
-      <created>1617300699529</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1617300699529</updated>
+      <workItem from="1619297266331" duration="26004000" />
     </task>
     <task id="LOCAL-00004" summary="Task: Added information to Readme">
       <created>1617301138217</created>
@@ -512,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619539845016</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Fix: Removed crash.Day_of_Week in index.html due to extra Day of Week column showing; Changed lowercase w to uppercase W in Day_of_Week in app.py so that new Data could be visible">
+      <created>1619543598593</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1619543598593</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +529,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task: Added new branch Part 2; Updated Codes" />
     <MESSAGE value="Fix: Error in app.py- Updated def index to def cities" />
     <MESSAGE value="Fix: Error in app.py- removed object line 22" />
     <MESSAGE value="Fix: edited layout.html code" />
@@ -556,6 +553,7 @@
     <MESSAGE value="Task: Added view.html file and added code" />
     <MESSAGE value="Fix: Edited code in app.py, docker-compose.yml, edit.html and index.html" />
     <MESSAGE value="Fix: Edited code in app.py line 25 from crash = result to crashes = result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Edited code in app.py line 25 from crash = result to crashes = result" />
+    <MESSAGE value="Fix: Removed crash.Day_of_Week in index.html due to extra Day of Week column showing; Changed lowercase w to uppercase W in Day_of_Week in app.py so that new Data could be visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: Removed crash.Day_of_Week in index.html due to extra Day of Week column showing; Changed lowercase w to uppercase W in Day_of_Week in app.py so that new Data could be visible" />
   </component>
 </project>
