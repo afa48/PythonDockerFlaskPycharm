@@ -22,7 +22,7 @@ def index():
     cursor = mysql.get_db().cursor()
     cursor.execute('SELECT * FROM crash_catalonia')
     result = cursor.fetchall()
-    return render_template('index.html', title='Home', user=user, crash=result)
+    return render_template('index.html', title='Home', user=user, crashes=result)
 
 
 @app.route('/view/<int:crash_id>', methods=['GET'])
